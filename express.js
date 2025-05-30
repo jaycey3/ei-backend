@@ -15,4 +15,5 @@ app.use('/', horseRoutes);
 
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
+  console.log(`API documentation is available at http://localhost:${port}/docs`);
 });
